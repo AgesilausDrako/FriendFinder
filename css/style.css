@@ -1,0 +1,22 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+	background-image: url("../images/brushed.png");
+}
+
+.jumbotron {
+	margin-top: 1em;
+}
+
+img {
+	width: 6%;
+	margin-right: .2em;
+}
+
+.btn {
+	padding: 1em;
+}
+
+a {
+	padding: .5em;
+	text-decoration: none;
+}
