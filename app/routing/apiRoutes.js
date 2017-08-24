@@ -28,10 +28,28 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
     
-    // if (newFriend.length < 10) {
-    //   newFriend.push(req.body);
-    //   res.json(true);
+    // Loop over friendsArray 
+    // Subtract the scores of each object from the userData object and save in a new array
+    // var totalDifference;
+    // var sum;
+    // var match;
+    // for(var i=0; i<friendsArray.length; i++) {
+    //   for(var j=0 j<userData.length; j++) {
+    //     totalDifference = Math.abs(friendsArray[i].scores - userData[j].scores);
+    //   }
     // }
+
+    // if () {
+
+    // }
+        // return friendsArray.scores.map(function (x) {
+        //   return x.scores;
+        // });
+
+    // Receive userData object from survey
+    // Push userData object to friendsArray
+      newFriend.push(req.body);
+      res.json(true);
     // Possible solution for arrays
     // newFriend.push(userData);
     // newFriend.push(req.body);
@@ -43,13 +61,8 @@ module.exports = function(app) {
     //   console.log(x.scores);
     // }
     
-    // var scores = getScores();
-    // res.json(true);
     // Pseudo code for solution
-      // Receive userData object from survey
-      // Push userData object to friendsArray
-      // Loop over friendsArray 
-      // Subtract the scores of each object from the userData object and save in a new array
+      
       // Compare the new array scores and find the closest to userData
       // Return the match and fire the modal
   });
