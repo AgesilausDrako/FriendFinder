@@ -145,7 +145,7 @@
 		      </div>
 		      <div class="modal-body">
 		        <h2 id="matchName">Match Name</h2>
-		        <img id="matchImage" src="">
+		        <img id="matchImage" class="modalImage" src="">
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -184,11 +184,11 @@
 					var currentURL = window.location.origin;
 
 					$.post(currentURL + "/api/friends", userData, function(data) {
-						
-						$("#matchName").text(data.name);
-						$("#matchImg").attr("src", data.photo);
+						console.log(data);
+						$("#matchName").text(data[1]);
+						$("#matchImage").attr("src", data[2]);
 
-						$("#myModal").modal("toggle");
+						$("#myModal").modal("show");
 						
 						// Reset values
 						$("#name").val("");

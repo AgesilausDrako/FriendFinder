@@ -20,3 +20,7 @@ a {
 	padding: .5em;
 	text-decoration: none;
 }
+
+#matchImage {
+	width: 100%;
+}

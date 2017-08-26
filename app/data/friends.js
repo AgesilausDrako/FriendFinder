@@ -1,97 +1,98 @@
 var friendsArray = [
     {
     "name":"Arya",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://awoiaf.westeros.org/images/3/36/John_Picacio_Arya.jpg",
     "scores":[
         5,
-        1,
-        4,
-        4,
+        3,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
         5,
         1,
-        2,
-        5,
-        4,
-        1
+        2
       ]
   },
   {
     "name":"Sansa",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://awoiaf.westeros.org/images/8/87/Drazenka_KimpelAlayne_Stone.png",
     "scores":[
         5,
-        3,
-        4,
         2,
-        4,
         3,
+        3,
+        2,
+        2,
+        3,
+        2,
         1,
-        1,
-        1,
-        1
+        3
       ]
   },
   {
     "name":"Jamie",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://awoiaf.westeros.org/images/f/f8/MagaliVilleneuve_JaimeLannister.jpg",
     "scores":[
         5,
-        2,
         3,
         4,
         4,
-        4,
-        4,
         5,
         4,
-        3
+        5,
+        5,
+        2,
+        4
       ]
   },
   {
     "name":"Cersei",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://awoiaf.westeros.org/images/0/07/Katherine_Dinger_CLannister.jpg",
     "scores":[
         5,
-        1,
+        5,
         4,
+        5,
+        5,
         4,
         5,
         1,
-        2,
-        5,
-        4,
-        1
+        1,
+        5
       ]
   },
   {
     "name":"Tyrion",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://awoiaf.westeros.org/images/7/78/Tyrion_as_Hand.jpg",
     "scores":[
-        2,
-        2,
+        5,
+        5,
+        5,
+        5,
         4,
-        2,
         5,
-        1,
-        2,
+        5,
         5,
         2,
-        3
+        5
       ]
   },
   {
-    "name":"Danaerys",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Daenerys",
+    "photo":"http://awoiaf.westeros.org/images/thumb/8/8b/Daenerys_DanyinMeereen.jpg/300px-Daenerys_DanyinMeereen.jpg",
     "scores":[
         5,
-        1,
-        4,
         3,
-        3,
-        1,
         5,
         5,
-        4,
+        3,
+        3,
+        5,
+        5,
+        1,
         5
       ]
   },
