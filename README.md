@@ -14,7 +14,7 @@ This will install all the packages and their necessary versions according to the
 ## Utilization
 In order to run FriendFinder the user will need to: 
 1. Enter their name and a link to their picture. (This is for storage purposes in case multiple users want to use the application.) 
-**Please be advised that no database is being employed for this application so if the current window of the application is closed all new data will be lost**
+**Please be advised that no database is being employed for this application so if the current window of the application is closed all new data will be lost.**
 2. Answer the ten questions provided by selecting the level of agreement or disagreement.
 3. Submit the form and see the match pop up in the modal window.
 
